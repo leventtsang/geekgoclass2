@@ -119,7 +119,7 @@ func initUser(db *gorm.DB) *web.UserHandler {
 }
 
 func initDB() *gorm.DB {
-	dsn := "root:@-9Bb123456789@tcp(localhost:3306)/webook?parseTime=true"
+	dsn := "root:@-9Bb123456789@tcp(10.106.59.148:3308)/webook?parseTime=true"
 	db, err := gorm.Open(mysql.Open(dsn), &gorm.Config{})
 	if err != nil {
 		panic(err)
