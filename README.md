@@ -7,6 +7,8 @@ Container Runtime为172网段。对外采用NodePort模式访问，方便跨硬�
 
 ## 镜像地址
 https://hub.docker.com/repository/docker/leventtsang/webook/general
+## Dockerfile地址
+https://github.com/leventtsang/geekgoclass2/blob/k8s/webook/Dockerfile
 
 ## Redis和MySQL的端口已修改。
 ![Alt text](image-4.png)
