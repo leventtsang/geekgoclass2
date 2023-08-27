@@ -1,3 +1,8 @@
+## 网段说明
+操作电脑（Windows）、宿主机（ESXi）及虚拟机（Ubuntu）为192网段。
+Pods及Service为10网段。
+Container Runtime为172网段。对外采用NodePort模式访问，方便跨硬件设备调用。真实生产环境会加入Load Balance。
+
 ## 镜像地址
 https://hub.docker.com/repository/docker/leventtsang/webook/general
 
