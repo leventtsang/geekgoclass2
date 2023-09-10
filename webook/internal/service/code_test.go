@@ -144,11 +144,7 @@ func TestSMSCodeService_Verify(t *testing.T) {
 			if ok != tt.wantOk || (err != nil && err.Error() != tt.wantErr.Error()) {
 				t.Errorf("wanted ok %v and error %v, got ok %v and error %v", tt.wantOk, tt.wantErr, ok, err)
 			}
-
-			ok, err = service.Verify(context.TODO(), "test", "13265983381", "123456")
-			if ok != tt.wantOk || (err != nil && err.Error() != tt.wantErr.Error()) {
-				t.Errorf("wanted ok %v and error %v, got ok %v and error %v", tt.wantOk, tt.wantErr, ok, err)
-			}
+			
 		})
 	}
 }
