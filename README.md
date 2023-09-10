@@ -1,16 +1,7 @@
-# 极客时间 Go 初级工程师训练营
+## JWTLogin测试截图
+https://github.com/leventtsang/geekgoclass2/blob/unit_test/webook/internal/web/middleware/jwt_login_test.go
+![image](https://github.com/leventtsang/geekgoclass2/assets/12555678/e0bddb61-c1a9-4c87-8211-98b8f23d2512)
 
-这是为极客时间 Go 初级工程师训练营提供的配套代码仓库。
-
-整个仓库的代码可以分成两个部分：
-- 基础语法部分：在 syntax 中。
-- 小微书代码。
-
-## 如何使用该仓库？
-
-因为仓库中的代码是随着课程推进而演进的，所以你需要通过 git log 来查看提交记录。
-
-其中：
-- master 分支是我预先写好的代码
-- live 是我 0 期直播时候写的代码
-
+## SMSCode测试截图
+https://github.com/leventtsang/geekgoclass2/blob/unit_test/webook/internal/service/code_test.go
+![image](https://github.com/leventtsang/geekgoclass2/assets/12555678/065bf68f-4728-4d3a-8027-4606846e72ca)
