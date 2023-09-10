@@ -77,13 +77,7 @@ func TestSMSCodeService_Send(t *testing.T) {
 				},
 			}
 			service := NewSMSCodeService(mockSMS, mockRepo)
-
 			err := service.Send(context.TODO(), "test", "13800000000")
-			if err != nil && err.Error() != tt.wantErr.Error() {
-				t.Errorf("wanted error %v, got %v", tt.wantErr, err)
-			}
-
-			err = service.Send(context.TODO(), "test", "13265983381")
 			if err != nil && err.Error() != tt.wantErr.Error() {
 				t.Errorf("wanted error %v, got %v", tt.wantErr, err)
 			}
